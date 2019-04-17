@@ -1,0 +1,67 @@
+insert into student values ( 1400, 'Daksh', '21-Jan-1996', 'EEE', 4 );
+insert into student values ( 1631, 'Qnax', '12-Jan-1998', 'CSE',2 );
+insert into student values ( 1511, 'Blue', '03-Dec-1997', 'MECH',3 );
+insert into student values ( 1503, 'Varsha', '23-Jul-1997', 'MECH', 3 );
+insert into student values ( 1669, 'Sarah', '04-May-1999', 'EEE',2 );
+insert into student values ( 1701, 'Pat', '01-March-1999', 'CHEM',1 );
+insert into student values ( 1597, 'Dinsha', '13-Oct-1997', 'MECH',3 );
+insert into student values ( 1580, 'Vanilla', '01-Nov-1997', 'EEE',3);
+insert into student values ( 1780, 'Harsh', '01-Nov-1997', 'CHEM',1 );
+insert into student values ( 1753, 'Eeshan', '23-Dec-1999', 'CSE',1 );
+insert into student values ( 1721, 'Sid', '17-Aug-1999', 'EEE', 1);
+insert into student values( 1501, 'Althaf', '01-Jan-1997', 'CHEM',3 );
+insert into student values ( 1621, 'Reddy', '15-Aug-1998', 'CSE',2 );
+insert into student values ( 1747, 'Ninaad', '01-Aug-199', 'MECH',3 );
+insert into student values ( 1673, 'Raju', '25-Nov-1998', 'EEE',2 );
+insert into student values ( 1612, 'Sarthak', '25-Feb-1998', 'CSE',2 );
+insert into student values ( 1773, 'Abdul', '07-Jul-1999', 'CHEM',1 );
+insert into student values ( 1732, 'Shalini', '13-Jan-1998', 'EEE',1 );
+insert into student values ( 1733, 'Ohm', '21-Dec-1998', 'CHEM',1 );
+
+insert into club values ( 9312, 'LoT', 'MUN and Cambiar', 9142312321, 'Giridhar' );
+insert into club values ( 9715, 'Sports', 'Sports tournaments', 9001257865, 'Kempraj' );
+insert into club values ( 9815, 'Council', 'Student Representatives', 8001257865, 'Prabhu' );
+insert into club values ( 9513, 'LDQ', 'Writing, Quizzes and Debating', 7123257865, 'Shetty' );
+
+
+insert into slot values ( 'AB5', '201', '1700' );
+insert into slot values ( 'AB1', '100', '1200' );
+insert into slot values ( 'AB3', '203', '1700' );
+insert into slot values ( 'AB1', '100', '1500' );
+insert into slot values ( 'AB3', '303', '1700' );
+
+insert into members values ( 9312, 1400, 'President' );
+insert into members values ( 9815, 1501, 'President' );
+insert into members values ( 9715, 1621, 'President' );
+insert into members values ( 9513, 1747, 'President' );
+insert into members values ( 9513, 1673, 'Member' );
+insert into members values ( 9513, 1669, 'Management' );
+insert into members values  ( 9312, 1511, 'Management' );
+insert into members values ( 9312, 1580, 'Management' );
+insert into members values ( 9815, 1612, 'Member' );
+insert into members values ( 9513, 1721, 'Member' );
+insert into members values ( 9312, 1721, 'Member' );
+insert into members values ( 9715, 1721, 'Member' );
+insert into members values ( 9815, 1580, 'Vice President' );
+
+insert into events values ( 1234, 9815, 'First committee meeting', 'AB1', '100', '07-Aug-2017', '1200' ); 
+insert into events values ( 2134, 9312, 'Cambiar', 'AB3', '203', '05-Sep-2017', '1700' );  
+insert into events values ( 2152, 9513, 'Litstock', 'AB5', '201', '25-Sep-2017', '1700' );
+
+insert into participants values ( 1234, 1501 );
+insert into participants values ( 1234, 1400 );
+insert into participants values ( 2134, 1400 );
+insert into participants values ( 2134, 1503 );
+insert into participants values ( 2134, 1773 );
+insert into participants values ( 2134, 1701 );
+insert into participants values ( 2152, 1747 );
+insert into participants values ( 2152, 1733 );
+insert into participants values ( 2152, 1631 );
+
+insert into Finances values ( 1000, 9815, 'Grant', 100000, '05-Aug-2017 12:00:00' );
+insert into Finances values ( 1001, 9715, 'Grant', 5000, '07-Aug-2017 12:00:00' );
+insert into Finances values ( 1002, 9513, 'Grant', 10000, '20-Aug-2017 12:00:00' );
+insert into Finances values ( 1003, 9312, 'Grant', 25000, '24-Aug-2017 12:00:00' );
+insert into Finances values ( 1004, 9815, 'Deduction', 5000, '23-Dec-2017 10:00:00' );
+
+
